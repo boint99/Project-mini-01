@@ -1,0 +1,55 @@
+
+:root {
+    --color-bg: #EFEFEF;
+    --color-bg-2: #1B2026;
+    --color-bg-3: #DCE8EB;
+    --color-btn: #F7D9C4;
+    --color-text: #313131;
+    --color-text-2: #777777;
+    --color-primary: #232323;
+    --color-red: #F68385;
+    --color-white: #fff;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.pad-bt {
+    padding: 80px 0;
+}
+
+.pad-bottom {
+    padding-bottom: 30px;
+}
+
+.pad-b-80 {
+    padding-bottom: 80px;
+}
+.pad-bottom-20 {
+    padding-bottom: 20px;
+}
+.background {
+   opacity: 90%;
+}
+
+.inner-mr {
+    margin: 80px 0;
+}
+
+
+.button-hightlight {
+    padding: 16px 40px;
+    color: var(--color-white);
+    border: 1px solid;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
